@@ -24,7 +24,7 @@ sub Dumper {
 use AnyEvent::Handle;
 use AnyEvent::Socket;
 
-use Net::AMQP;
+use Net::AMQP 0.06;
 use Net::AMQP::Common qw(:all);
 
 use AnyEvent::RabbitMQ::Channel;
