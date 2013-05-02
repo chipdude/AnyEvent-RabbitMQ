@@ -1,5 +1,8 @@
 Revision history for Perl extension AnyEvent::RabbitMQ
 
+<tbd>
+  - Require Net::AMQP 0.06 now that it's on CPAN.
+
 1.1203
   - Allow customized client_properties on connection.
 
